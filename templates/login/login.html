@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&#x1F4C6;kelendar login</title>
+	<script type="text/javascript" src="login.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+
+
+</head>
+<body>
+
+
+	<form action="http://127.0.0.1:5000/login_check" id="login_form" method="post">
+		<label>Enter Your Name: </label>
+		<input name="name" placeholder="Name" type="text" id="name" required />		<br><br>
+
+		<label>Enter Your Ph Number: </label>
+		<input name="phn" placeholder="Mobile No." type="tel" id="ph" required/>		<br><br>
+
+		<label>Enter Your E-Mail: </label>
+		<input name="email" placeholder="@gmail / @yahoo ..." type="email" id="email" required/>		<br><br>
+<!-- 
+		<label> Select Your Gender:-- </label>
+		<select name="gender" id="gender">
+			<option> Male </option>
+			<option> Female </option>
+			<option> Trans </option>
+			<option> Other </option>
+		</select>
+		<br><br>
+
+			<label> Select Your Country:-- </label>
+		<select name="country" id="country">
+			<option> India </option>
+			<option> Chaina </option>
+			<option> Russia </option>
+			<option> Japan </option>
+			<option> Bangladesh </option>
+			<option> Europe </option>
+			<option> USA </option>
+			<option> Other </option>
+		</select>
+		<br><br>
+ -->
+	<button type="submit"> {{enter_type}} </button>	
+	</form>
+</body>
+</html>

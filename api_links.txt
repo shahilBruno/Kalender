@@ -1,0 +1,8 @@
+https://codeforces.com/api/contest.list?
+
+
+
+# ---------- APIs & ADDRESS FOR GET DATA / SCRAPE DATA ------------
+# leetcode API - 'https://leetcode-contest-api.fronte.io/contest'
+# codechef address - 'codechef.com/contests'
+# leetcode address - 'leetcode.com/contest'

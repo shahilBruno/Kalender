@@ -1,0 +1,121 @@
+body {
+	/*display: flex;*/
+	align-items: center;
+	justify-content: center;
+
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(wall/login_wall.jpg);		/*background-image*/
+	background-position: center;
+	background-repeat: no-repeat;
+	backdrop-filter: blur(5px);				/*nothing error just sublime problem*/
+}
+h4 {
+	color: white;
+}
+#heading {
+	color: white;
+	border-radius: 13px;
+	padding: 15px;
+	box-shadow: black 5px 5px 5px;
+	background: rgba(150, 150, 150, 0.2);
+	border: 2px solid white;
+/*	#b85eb2
+	align-items: center;
+	justify-content: center;
+*/
+}
+img {
+	background: white;
+}
+#cp_sites {
+	display: flex;
+	list-style: none;
+	color: black;
+}
+#cp_sites li {
+	margin-right: 20px;
+	cursor: pointer;
+}
+#cp_sites img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+#cp_sites img:hover {
+	box-shadow: black 6px 6px 10px;
+}
+#month_changer {
+	display: flex;
+}
+#month {
+	color: white;
+	font-size: 20px;
+}
+.but, button {
+	background: blue;
+	color: white;
+	font-size: 15px;
+	padding: 3px;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 100px;
+	height: 40px;
+	margin: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	box-shadow: black 5px 5px 5px;
+}
+.but:hover, button:hover {
+	background: rgb(0,0,9);
+}
+.but:active, button:active {
+	background: paleturquoise;
+	color: black;
+}
+
+#calendar {
+	display: flex;
+	width: 360px;
+/*	align-items: center;
+	justify-content: center;
+	align-content: center;
+*/
+}
+#days {
+	display: flex;
+	width: 550px;
+
+}
+.day {
+	font-size: 21px;
+	padding: 20px;
+	margin: 1px;
+	width: 36px;
+	background-color: lightgreen;
+}
+
+#dates {
+	display: flex;
+	flex-wrap: wrap;
+	width: 550px;
+}
+.date {
+	border: 3px solid lightgrey;
+	font-size: 20px;
+	padding: 25px;
+	margin: 2px;
+	color: white;
+	cursor: pointer;
+	/*width: 15px;*/
+}
+.date:hover {
+	background-color: paleturquoise;
+	background-image: linear-gradient(paleturquoise, rgba(0, 0, 0, 0));
+	color: black;
+}

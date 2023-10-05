@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&#x1F4C6; kelendar</title>
+	<!-- <script type="text/javascript" src="index.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+<div align='center'>
+
+	<!-- login page -->
+	<a href="login" class="but"> L o g i n </a>
+	<a href="signin" class="but"> S i g n i n </a>
+
+
+	<h3 id="heading">Kelendar is a celender that let you know about the upcomming coding contests in several websites like...</h3>		<br>
+
+	<h4> go to cp sites </h4>
+
+	<ul id="cp_sites" align='center'>
+		<li class="site"> <a href="https://hackerrank.com"> <img src="{{ url_for('static', filename='icon_img/hr.png') }}" alt="hackerrank"> </a> </li>
+
+		<li class="site"> <a href="https://leetcode.com"> <img src="{{ url_for('static', filename='icon_img/lc.png') }}" alt="leetcode"> </a> </li>
+
+		<li class="site"> <a href="https://codechef.com"> <img src="{{ url_for('static', filename='icon_img/cc.png') }}" alt="codechef"> </a> </li>
+
+		<li class="site"> <a href="https://codeforces.com"> <img src="{{ url_for('static', filename='icon_img/cf.png') }}" alt="codeforces"> </a> </li>
+
+		<li class="site"> <a href="https://atcoder.jp"> <img src="{{ url_for('static', filename='icon_img/ac.png') }}" alt="atcoder"> </a> </li>
+
+		<li class="site"> <a href="https://topcoder.com"> <img src="{{ url_for('static', filename='icon_img/tc.png') }}" alt="topcoder"> </a> </li>
+
+		<li class="site"> <a href="https://hackerearth.com"> <img src="{{ url_for('static', filename='icon_img/hr.png') }}" alt="hackerearth"> </a> </li>
+
+	</ul>		<br>
+
+	<div id="month_changer">
+		<button> < </button>
+		<div id="month"> September </div>
+		<button> > </button>
+	</div>		<br>
+
+
+	<div id="calender">
+		<div id="days">
+			<div class="day">Sun</div>
+			<div class="day">Mon</div>
+			<div class="day">Tue</div>
+			<div class="day">Wed</div>
+			<div class="day">Thu</div>
+			<div class="day">Fry</div>
+			<div class="day">Sat</div>
+		</div>
+
+
+		<!-- dates =====> -->
+		<div id="dates">
+			<div class="date" onclick="selectDate()">30</div>
+			<div class="date">31</div>
+			<div class="date">01</div>
+			<div class="date">02</div>
+			<div class="date">03</div>
+			<div class="date">04</div>
+			<div class="date">05</div>
+
+			<div class="date">06</div>
+			<div class="date">07</div>
+			<div class="date">07</div>
+			<div class="date">08</div>
+			<div class="date">09</div>
+			<div class="date">10</div>
+			<div class="date">11</div>
+
+			<div class="date">12</div>
+			<div class="date">13</div>
+			<div class="date">14</div>
+			<div class="date">15</div>
+			<div class="date">16</div>
+			<div class="date">17</div>
+			<div class="date">18</div>
+
+			<div class="date">19</div>
+			<div class="date">20</div>
+			<div class="date">21</div>
+			<div class="date">22</div>
+			<div class="date">23</div>
+			<div class="date">24</div>
+			<div class="date">25</div>
+
+			<div class="date">26</div>
+			<div class="date">27</div>
+			<div class="date">28</div>
+			<div class="date">29</div>
+			<div class="date">30</div>
+			<div class="date">31</div>
+			<div class="date">01</div>
+		</div>
+		
+
+	</div>		
+
+</div>
+</body>
+</html>

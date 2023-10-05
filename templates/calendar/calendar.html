@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&#x1F4C6; kelendar List </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+	<!-- <script type="text/javascript" src="list_page.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='calendar.css') }}">
+</head>
+
+<body>
+<div align='center'>
+	
+	<h1> Codeforces Contests </h1>
+
+	{% for i in range(10) %}
+		<div id="contest_{{ i+1 }}" class="contests">
+		 	{{ dict_data['result'][0]['name'], ' - ', dict_data['result'][0]['startTimeSeconds'] }}
+	 	</div>
+	{% endfor %}
+
+</div>
+</body>
+</html>
