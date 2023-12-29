@@ -138,8 +138,9 @@ def jsn():
 
 
 # run the server ==============================================================================
-if __name__ == '__main__':
-	app.run(debug=True)
+# uncomment to run in local machine
+# if __name__ == '__main__':
+# 	app.run(debug=True)
 
 # path of this file
 # cd C:\Users\Admin\Documents\CODES\kalendar_flask
